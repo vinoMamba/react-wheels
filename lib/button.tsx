@@ -1,6 +1,8 @@
+import * as React from "react";
+
 const Button = () => {
     return (
-        <div>按钮</div>
+        <button>按钮</button>
     )
 }
 export default Button
