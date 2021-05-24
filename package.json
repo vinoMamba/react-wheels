@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/vinoMamba/react-wheels/issues"
   },
-  "homepage": "https://github.com/vinoMamba/react-wheels#readme"
+  "homepage": "https://github.com/vinoMamba/react-wheels#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
