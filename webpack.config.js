@@ -2,7 +2,6 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'production',
     entry: {
         vinoReactWheels: './lib/index.tsx',
     },
@@ -23,24 +22,4 @@ module.exports = {
             }
         ]
     },
-    plugins: [new HtmlWebpackPlugin(
-        {
-            title: "Webpack App",
-            template: "index.html"
-        }
-    )],
-    externals: {
-        'react': {
-            commonjs: 'react',
-            commonjs2: 'react',
-            amd: 'react',
-            root: 'react',
-        },
-        'react-dom': {
-            commonjs: 'react-dom',
-            commonjs2: 'react-dom',
-            amd: 'react-dom',
-            root: 'ReactDom',
-        },
-    }
 }
